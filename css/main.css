@@ -99,6 +99,12 @@ textarea {
 img {
   max-width: 50%
 }
+.navbar li {
+  display: inline-block;
+  float: right;
+  padding: 2em;
+  margin-bottom: 2em;
+}
 
 
 
