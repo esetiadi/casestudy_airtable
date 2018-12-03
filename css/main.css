@@ -96,17 +96,138 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-img {
-  max-width: 50%
+html {
+  box-sizing: border-box;
+  background-color: #ffffff;
+
 }
-.navbar li {
-  display: inline-block;
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.logo img {
+  width: 12em;
+position: absolute;
+top: 2em;
+}
+body {
+  font-family: 'Allerta', sans-serif;
+  font-weight: bold;
+  max-width: 1100px;
+  margin: auto;
+position: relative;
+padding: 2em;
+}
+header {
+  margin: none;
+  padding: none;
+  margin-top: 2em;
+}
+#navbar {
+  position: absolute;
+  top: 2em;
+  right: 2em;
+  text-align: center;
+  border: 1px solid red;
+  }
+#navbar ul {
+  list-style: none;
+
+  }
+#navbar li {
+    float: left;
+    padding: 0.5em;
+  }
+/*section -- create */
+.create {
+  margin-top: 6em;
+  border: solid 1px blue;
+  padding-bottom: 15em;
+}
+.create-right {
+  width: 50%;
   float: right;
-  padding: 2em;
-  margin-bottom: 2em;
+}
+.create-left {
+  width: 50%;
+}
+.create img {
+  max-width: 100%;
 }
 
+/*section-perfect*/
+.perfect {
+  border: 1px solid orange;
+}
+.perfect-right {
+  width: 50%;
+  float: right;
+}
+.perfect-left {
+  width: 50%;
+}
+.perfect img {
+  max-width: 100%;
+}
+.perfect ul {
+  list-style: none;
+  }
+.perfect li {
+    float: left;
+    padding: 0.5em;
+  }
 
+  /*section-unleash*/
+  .unleash {
+    border: solid 1px blue;
+    padding-bottom: 25em;
+  }
+  .unleash-right {
+    width: 50%;
+    float: right;
+  }
+  .unleash-left {
+    width: 50%;
+    float: left;
+  }
+  .unleash img {
+    max-width: 100%;
+  }
+
+  /*section-inspiration*/
+  .inspiration {
+    border: solid 1px pink;
+    padding-bottom: 35em;
+  }
+  .inspiration-right {
+    width: 50%;
+    float: right;
+  }
+  .inspiration-left {
+    width: 50%;
+    float: left;
+  }
+  .inspiration img {
+    max-width: 50%;
+    float: left;
+    padding: 2em;
+  }
+.footer {
+    clear: both;
+    text-align: center;
+    border: 1px solid red;
+    padding-bottom: 10em;
+  }
+.footer ul {
+    list-style: none;
+
+    }
+.footer li {
+      float: left;
+      padding: 0.5em;
+    }
+.footer img {
+  max-width: 100%;
+}
 
 
 
