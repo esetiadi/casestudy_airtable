@@ -34,18 +34,22 @@
 </nav>
 </header>
 <!--MAIN TOP PAGE-->
-<section class="create">
-  <div class="create-right">
-<img src="https://airtable.com/images/home/shapes_collaboration.png" title="shapes-collaboration">
-</div> <!--create-right-->
-<div class="create-left"
+<section class="row">
+<div class="create left-create">
 <h2>Create, your way</h2>
 <p>Part spreadsheet, part database, and entirely flexible, teams use Airtable to organize their work, their way.</p>
 <!--EMAIL FORM & BUTTON-->
-Enter your email address
-Get Started
+<div class="email-button">
+<form action="/action_page.php">
+<input type="text" placeholder="Enter your email address" id="enter">
+<input type="submit" value="Get Started" id="button">
 <p>Already using Airtable? <a href="https://airtable.com/login" title="sign in">Sign in</a></p>
+</form>
+</div><!--email-button-->
 </div> <!--create-left-->
+<div class="create right-create">
+<img src="https://airtable.com/images/home/shapes_collaboration.png" title="shapes-collaboration">
+</div> <!--create-right-->
 </section>
 
 <!--section=perfect view-->
@@ -72,14 +76,14 @@ Get Started
 </section> <!--perfect-->
 
 <!--section =  unleash-->
-<section class="unleash">
-  <div class="unleash-left"
+<section class="row">
+  <div class="unleash left-unleash">
 <h4>NEW!</h4>
 <h3>Unleash your team’s creative potential with Blocks</h3>
 <p>Airtable Blocks give you a creative palette of app-like functionality that you can mix and match to create the perfect workflow for your team.</p>
-<a href="https://airtable.com/blocks" alt="blocks">Discover blocks</a>
+<a class="discover" href="https://airtable.com/blocks" alt="blocks">Discover blocks</a>
 </div><!--unleash-left-->
-<div class="unleash-right">
+<div class="unleash right-unleash">
 <img src="https://airtable.com/images/home/shapes-blocks.jpg" alt="shapes-blocks">
 </div><!--unleash-right-->
 </section>
