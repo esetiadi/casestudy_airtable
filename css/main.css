@@ -104,15 +104,11 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
-@@font-face {
-  font-family: sans-serif;
-  src: url
-}
 
 .logo img {
   width: 12em;
 position: absolute;
-top: 2em;
+top: 1em;
 }
 body {
   font-family: 'Allerta', sans-serif;
@@ -129,19 +125,34 @@ header {
 }
 #navbar {
   position: absolute;
-  top: 2em;
+  top: 1em;
   right: 2em;
   text-align: center;
-  border: 1px solid red;
+  color: #666666;
+  font-size: 0.8em;
   }
 #navbar ul {
   list-style: none;
-
   }
 #navbar li {
     float: left;
-    padding: 0.5em;
+    padding: 1.5em;
   }
+  a:link, a:visited {
+      text-decoration: none;
+      color: #666666;
+  }
+  a:hover {
+      text-decoration: none;
+      color: #000000;
+  }
+.sign-up a:link, .sign-up a:visited {
+  color: #2c7ff9;
+}
+}
+.sign-up a:hover {
+  color: #1b4b96;
+}
 /*section -- create */
 .create {
   margin-top: 6em;
