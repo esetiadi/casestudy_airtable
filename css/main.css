@@ -273,22 +273,48 @@ p {
 
   /*section-inspiration*/
   .inspiration {
-    border: solid 1px pink;
-    padding-bottom: 35em;
-  }
-  .inspiration-right {
-    width: 50%;
-    float: right;
-  }
-  .inspiration-left {
-    width: 50%;
+    height: 550px;
     float: left;
   }
-  .inspiration img {
-    max-width: 50%;
-    float: left;
-    padding: 2em;
+.left-inspo {
+    width: 70%;
+    border: 1px solid blue;
   }
+.right-inspo {
+    width: 30%;
+    border: 1px solid red;
+  }
+  .inspo-image {
+  border: 1px solid green;
+  float: left;
+  width: 50%;
+  height: 50%;
+}
+.inspo-image img{
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+}
+.creative-bkgd {
+  background-color: #d0f0fd;
+  border-radius: 1em;
+}
+.marketing-bkgd{
+  background-color: #ffdce5;
+  border-radius: 1em;
+}
+.Product-bkgd{
+  background-color: #cfdfff;
+  border-radius: 1em;
+}
+.project-bkgd{
+  background-color: #ede1fe;
+  border-radius: 1em;
+}
+h5 {
+  line-height: 1.5em;
+  letter-spacing: 0.25em;
+}
 .footer {
     clear: both;
     text-align: center;
