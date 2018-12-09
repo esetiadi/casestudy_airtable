@@ -116,7 +116,6 @@ body {
   margin: auto;
   position: relative;
   padding: 2em;
-  border: 1px solid red;
 }
 header {
   margin: none;
@@ -205,12 +204,35 @@ h2 {
 }
 .email-button p {
   font-size: 0.75em;
-}
+  }
 .email-button a:link, a:visited{
   border-bottom: 2px solid #ececec;
 }
 
 /*section-perfect*/
+.purpledot {
+  width: 15%;
+  margin-bottom: -8em;
+  margin-left: 3em;
+}
+.animated-bkgn {
+  width: 1100px;
+  height: 900px;
+  padding-top: 0.5em;
+  margin-left: -2em;
+  margin-right: -2em;
+  background-color: #ede1fe;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes example {
+  0%   {background-color: #ede1fe;}
+  25%  {background-color: #d0f0fd;}
+  50%  {background-color: #ffdce5;}
+  75% {background-color: #cedfff;}
+  100% {background-color: #ffd9f6;}
+}
 .perfect-jumbotron {
   margin-top: 2em;
   height: 600px;
@@ -223,6 +245,7 @@ h2 {
   border: 5px solid #ececec;
   border-radius: 2em;
   margin-bottom: 2em;
+  margin-left: 8em;
 }
 #iphone-grid {
   position: relative;
@@ -243,11 +266,12 @@ h2 {
 .perfect-navbar ul {
   display: inline-block;
   list-style-type: none;
+margin-left: 8em;
   }
 .perfect-navbar li {
     float: left;
-    padding: 2em 2em 0 5em;
-    }
+    padding: 1em 3em;
+  }
   .perfect-content {
     clear:both;
     text-align: center;
@@ -256,6 +280,26 @@ h2 {
   .perfect-navbar {
     cursor: pointer;
   }
+#grid-button:hover {
+  background-color: #ede1fe;
+  border-radius: 1em;
+}
+#calendar-button:hover {
+  background-color: #d0f0fd;
+  border-radius: 1em;
+}
+#kanban-button:hover {
+  background-color: #ffdce5;
+  border-radius: 1em;
+}
+#gallery-button:hover {
+  background-color: #cedfff;
+  border-radius: 1em;
+}
+#form-button:hover {
+  background-color: #ffd9f6;
+  border-radius: 1em;
+}
 
   /*section-unleash*/
   .unleash {
@@ -368,9 +412,6 @@ h6 {
 				-webkit-transform: rotate(360deg);
 		}
 }
-#animate img{
-
-}
 .signup-button {
   padding: 6em;
   background-size: 10%;
@@ -431,7 +472,6 @@ td {
   bottom: 5em;
   color: #666666;
   font-size: 0.7em;
-  border: 1px solid blue;
   padding: 0;
   }
 
