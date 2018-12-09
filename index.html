@@ -53,27 +53,30 @@
 </section>
 
 <!--section=perfect view-->
-<section class="perfect">
-<div class="perfect-right"
+<section class="perfect-jumbotron">
+  <div id="iphone-grid">
+  <img src="https://airtable.com/images/home/grid_view.png" id="grid" title="Grid">
+  <img src="https://airtable.com/images/home/iphone_grid.png" id="iphone" title="iphone-Grid">
+</div>
+  <img src="https://airtable.com/images/home/calendar_view.png" id="calendar" title="Calendar">
+  <img src="https://airtable.com/images/home/kanban_view.png" id="kanban" title="Kanban">
+  <img src="https://airtable.com/images/home/gallery_view.png" id="gallery" title="Gallery">
+  <img src="https://airtable.com/images/home/form_view.png" id="form" title="Form">
+</section>
+
+  <div class="perfect-navbar">
+  <ul>
+    <li id="grid-button">Grid</li>
+    <li id="calendar-button">Calendar</li>
+    <li id="kanban-button">Kanban</li>
+    <li id="gallery-button">Gallery</li>
+    <li id="form-button">Form</li>
+  </ul>
+</div>
+<section class="perfect-content">
 <h3>The perfect view for the task at hand</h3>
-<a href="https://airtable.com/product" title="product">Take the product tour</a>
-<ul>
-  <li>Grid</li>
-  <li>Calendar</li>
-  <li>Kanban</li>
-  <li>Gallery</li>
-  <li>Form</li>
-</ul>
-</div><!--perfect-right-->
-<div class="perfect-left">
-<img src="https://airtable.com/images/home/grid_view.png" title="Grid">
-<img src="https://airtable.com/images/home/iphone_grid.png" title="iphone-Grid">
-<img src="https://airtable.com/images/home/calendar_view.png" title="Calendar">
-<img src="https://airtable.com/images/home/kanban_view.png" title="Kanban">
-<img src="https://airtable.com/images/home/gallery_view.png" title="Gallery">
-<img src="https://airtable.com/images/home/form_view.png" title="Form">
-</div><!--perfect-left-->
-</section> <!--perfect-->
+<a class="blue-arrow-link" href="https://airtable.com/product" title="product">Take the product tour &#8594;</a>
+</section>
 
 <!--section =  unleash-->
 <section class="row">
@@ -81,7 +84,7 @@
 <h4>NEW!</h4>
 <h3>Unleash your team’s creative potential with Blocks</h3>
 <p>Airtable Blocks give you a creative palette of app-like functionality that you can mix and match to create the perfect workflow for your team.</p>
-<a class="discover" href="https://airtable.com/blocks" alt="blocks">Discover blocks</a>
+<a class="blue-arrow-link" href="https://airtable.com/blocks" alt="blocks">Discover blocks &#8594;</a>
 </div><!--unleash-left-->
 <div class="unleash right-unleash">
 <img src="https://airtable.com/images/home/shapes-blocks.jpg" alt="shapes-blocks">
@@ -116,43 +119,81 @@
 <div class="inspiration right-inspo">
 <h3>Inspiration for every team</h3>
 <p>Get started fast with templates built by industry experts.</p>
-<a href="https://airtable.com/inspiration" title="inspiration">Explore use cases</a>
+<a class="blue-arrow-link" href="https://airtable.com/inspiration" title="inspiration">Explore use cases &#8594;</a>
 </div><!--inspiration-right-->
 </section>
 
 <footer class="footer">
 <h6>Trusted by over 30,000 of the world’s leading companies</H6>
 <img src="https://airtable.com/images/about/logos.png" alt="logos">
+
+<!--ROTATING BLUE SQUARE-->
+<img id="animate" src="https://airtable.com/images/home/blue_square.png">
 <!--EMAIL FORM & BUTTON-->
-Enter your email
-Sign up for free
-<p>Airtable is free to use for teams of any size. We also offer <a href="https://airtable.com/pricing">paid plans></a> with additional features, storage, and support.</p>
+<div class="signup-button">
+<h3>Power your team with Airtable</h3>
+<form action="/action_page.php">
+<input type="text" placeholder="Enter your email" id="enter">
+<input type="submit" value="sign up for free" id="button">
+<p>Airtable is free to use for teams of any size. We also offer <a href="https://airtable.com/pricing">paid plans</a> with additional features, storage, and support.</p>
+</form>
+</div><!--signup-button-->
 
-  <ul>
-    <li><a href="https://airtable.com/product"title="Product">Product</a></li>
-    <li><a href="https://airtable.com/inspiration"title="Inspiration">Inspiration</a></li>
-    <li><a href="https://airtable.com/blocks"title="Blocks">Blocks</a></li>
-    <li><a href="https://airtable.com/templates"title="Templates">TeTemplates</a></li>
-    <li><a href="https://airtable.com/universe"title="Universe">Universe</a></li>
-    <li><a href="https://airtable.com/pricing"title="Pricing">Pricing</a></li>
-    <li><a href="https://app.livestorm.co/airtable"title="Webinars">Webinars</a></li>
-    <li><a href="https://airtable.com/security"title="Security">Security</a></li>
-    <li><a href="https://airtable.com/enterprise"title="Enterprise">Enterprise</a></li>
-    <li><a href="https://airtable.com/api"title="API">API</a></li>
-    <li><a href="https://airtable.com/integrations"title="Integration">Integration</a></li>
-    <li><a href="https://airtable.com/downloads"title="Downloads">Downloads</a></li>
-    <li><a href="https://airtable.com/about"title="About">About</a></li>
-    <li><a href="https://airtable.com/jobs"title="Jobs">Jobs</a></li>
-    <li><a href="https://blog.airtable.com/"title="Blog">Blog</a></li>
-    <li><a href="https://creatorsandcreatives.com/"title="Creators magazine">Creator magazine</a></li>
-    <li><a href="https://airtable.com/shrBU3rcojQsZ4fNk"title="Contact Sales">Contact Sales</a></li>
-    <li><a href="https://airtable.com/press"title="Press">Press</a></li>
-    <li><a href="https://twitter.com/airtable"title="Twitter">Twitter</a></li>
-    <li><a href="https://airtable.com/jobs?utm_source=marketing_footer"title="We're Hiring!">We're Hiring!</a></li>
+<section class="row">
+<div class="bottom left-footer">
+<table id="footer-table"
+  <tr>
+    <td><a href="https://airtable.com/product"title="Product">Product</a></td>
+    <td><a href="https://app.livestorm.co/airtable"title="Webinars">Webinars</a></td>
+    <td><a href="https://airtable.com/about"title="About">About</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://airtable.com/inspiration"title="Inspiration">Inspiration</a></td>
+    <td><a href="https://airtable.com/security"title="Security">Security</a></td>
+    <td><a href="https://airtable.com/jobs"title="Jobs">Jobs</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://airtable.com/blocks"title="Blocks">Blocks</a></td>
+    <td><a href="https://airtable.com/enterprise"title="Enterprise">Enterprise</a></td>
+    <td><a href="https://blog.airtable.com/"title="Blog">Blog</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://airtable.com/templates"title="Templates">TeTemplates</a></td>
+    <td><a href="https://airtable.com/api"title="API">API</a></td>
+    <td><a href="https://creatorsandcreatives.com/"title="Creators magazine">Creator magazine</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://airtable.com/universe"title="Universe">Universe</a></td>
+    <td><a href="https://airtable.com/integrations"title="Integration">Integration</a></td>
+    <td><a href="https://airtable.com/shrBU3rcojQsZ4fNk"title="Contact Sales">Contact Sales</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://airtable.com/pricing"title="Pricing">Pricing</a></td>
+    <td><a href="https://airtable.com/downloads"title="Downloads">Download apps</a></td>
+    <td><a href="https://airtable.com/press"title="Press">Press</a></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td><a href="https://twitter.com/airtable"title="Twitter">Twitter</a></td>
+  </table>
+</div>
 
-    <li>Questions?<br><a href="https://support.airtable.com/"title="Explore our help center">Explore our help center</a></li>
-    <li>&copy;Airtable <a href="https://airtable.com/tos"title="terms">Terms</a><a href="https://airtable.com/privacy"title="Privacy">Privacy</li>
-  </ul>
+  <div class="bottom right-footer">
+
+    <p><a class="blue-underlink" href="https://airtable.com/jobs?utm_source=marketing_footer"title="We're Hiring!">We're Hiring!</a></p>
+
+    <p>Questions?<br><a class="question" href="https://support.airtable.com/"title="Explore our help center">Explore our help center</a></p>
+
+      <ul class="bottomnav">
+          <li>&copy;Airtable</li>
+          <li><a href="https://airtable.com/tos"title="terms">Terms</a></li>
+          <li><a href="https://airtable.com/privacy"title="Privacy">Privacy</a></li>
+      </ul>
+
+
+    </div>
+  </section>
 </footer>
 
 
@@ -161,7 +202,7 @@ Sign up for free
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
   <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+  <script src="javascript.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>

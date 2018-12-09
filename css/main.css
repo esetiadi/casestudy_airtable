@@ -116,6 +116,7 @@ body {
   margin: auto;
   position: relative;
   padding: 2em;
+  border: 1px solid red;
 }
 header {
   margin: none;
@@ -160,11 +161,9 @@ header {
 }
 .left-create {
   width: 50%;
-  border: 1px solid blue;
 }
 .right-create {
   width: 50%;
-  border: 1px solid red;
 }
 .create img {
   max-width: 100%;
@@ -207,36 +206,54 @@ h2 {
 .email-button p {
   font-size: 0.75em;
 }
-.email-button a:link {
-  border-bottom: 2px solid;
+.email-button a:link, a:visited{
+  border-bottom: 2px solid #ececec;
 }
 
 /*section-perfect*/
-.perfect {
-  padding: 2em;
-  background-color: #fff0f5;
-  border: 1px solid orange;
-  width: 100%;
-  height: 500px;
+.perfect-jumbotron {
+  margin-top: 2em;
+  height: 745px;
   overflow: hidden;
-
+  margin-left: auto;
+  margin-right: auto;
 }
-.perfect-right {
-  width: 50%;
-  float: right;
-}
-.perfect-left {
-  width: 50%;
-}
-.perfect img {
+.perfect-jumbotron img {
   max-width: 100%;
+  border: 5px solid #ececec;
+  border-radius: 2em;
+  margin-bottom: 2em;
 }
-.perfect ul {
-  list-style: none;
+#iphone-grid {
+  position: relative;
+}
+#grid {
+  height: 745px;
+  padding-bottom: 3em;
+  border-radius: 2em;
+}
+#iphone {
+  position: absolute;
+  top: 17em;
+  right: 10em;
+  max-width: 60%;
+  max-height: 60%;
+}
+.perfect-navbar ul {
+  display: inline-block;
+  list-style-type: none;
   }
-.perfect li {
+.perfect-navbar li {
     float: left;
-    padding: 0.5em;
+    padding: 2em 2em 0 5em;
+    }
+  .perfect-content {
+    clear:both;
+    text-align: center;
+    padding-bottom: 10em;
+  }
+  .perfect-navbar {
+    cursor: pointer;
   }
 
   /*section-unleash*/
@@ -246,11 +263,9 @@ h2 {
   }
   .left-unleash {
     width: 35%;
-    border: 1px solid blue;
   }
   .right-unleash {
     width: 65%;
-    border: 1px solid red;
   }
   .unleash img {
     max-width: 100%;
@@ -267,7 +282,7 @@ h2 {
 p {
   color: #666666;
 }
-.discover a:link, .discover a:visited {
+.blue-arrow-link:link, .blue-arrow-link:visited {
   color: #2c7ff9;
 }
 
@@ -278,14 +293,13 @@ p {
   }
 .left-inspo {
     width: 70%;
-    border: 1px solid blue;
   }
 .right-inspo {
     width: 30%;
-    border: 1px solid red;
+    margin-top: 8em;
   }
   .inspo-image {
-  border: 1px solid green;
+  border: 1em solid transparent;
   float: left;
   width: 50%;
   height: 50%;
@@ -315,26 +329,116 @@ h5 {
   line-height: 1.5em;
   letter-spacing: 0.25em;
 }
+h6 {
+  font-size: 1.25em;
+  color: #666666;
+}
 .footer {
+    background-image: url(https://airtable.com/images/home/red_circle.png);
+    background-repeat: no-repeat;
+    padding: 2em 5em;
     clear: both;
     text-align: center;
-    border: 1px solid red;
     padding-bottom: 10em;
   }
 .footer ul {
     list-style: none;
 
     }
-.footer li {
-      float: left;
+.left-footer li {
+      display: inline-block;
       padding: 0.5em;
+      border-bottom: 2px solid #ececec;
     }
 .footer img {
   max-width: 100%;
+  padding-bottom: 5em;
 }
+#animate {
+  width: 8%;
+  float: right;
+		-webkit-animation: rotation 20s infinite linear;
+}
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(360deg);
+		}
+}
+#animate img{
 
+}
+.signup-button {
+  padding: 6em;
+  background-size: 10%;
+  background-position: top right;
+}
+.signup-button p {
+  font-size: 0.75em;
+  padding: 0 12em;
+  line-height: 1.5em;
+}
+.signup-button a:link {
+  border-bottom: 2px solid #ececec;
+}
+#footer-table {
+  text-align: left;
+  font-size: 0.9em;
+}
+#footer-table a:link {
+  border-bottom: 2px solid #ececec;
+}
+td {
+  width: 38%;
+  height: 3em;
+}
+.bottom {
+  height: 350px;
+  float: left;
+}
+.left-footer {
+  width: 60%;
+}
+.right-footer {
+  width: 40%;
+  padding: 1em;
+  text-align: left;
+}
+.right-footer a:link {
+  font-size: .9em;
+}
+.blue-underlink:link, .blue-underlink:visited {
+  color: #2c7ff9;
+  border-bottom: 2px solid #2c7ff9;
+  font-weight: bold;
+}
+.right-footer p{
+  font-size: 1em;
+}
+.question:link {
+  border-bottom: 2px solid #ececec;
+}
+.bottomnav {
+  position: absolute;
+  bottom: 23em;
+  right: 21em;
+  text-align: center;
+  color: #666666;
+  font-size: 0.8em;
+  }
 
-
+.bottomnav ul {
+  list-style: none;
+  }
+.bottomnav li {
+    float: left;
+    padding: 0.5em;
+  }
+.bottomnav a {
+  border-bottom: 2px solid #ececec;
+}
 
 
 
