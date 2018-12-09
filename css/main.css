@@ -106,7 +106,7 @@ html {
 }
 
 .logo img {
-  width: 12em;
+width: 12em;
 position: absolute;
 top: 1em;
 }
@@ -213,13 +213,13 @@ h2 {
 /*section-perfect*/
 .perfect-jumbotron {
   margin-top: 2em;
-  height: 745px;
+  height: 600px;
   overflow: hidden;
   margin-left: auto;
   margin-right: auto;
 }
 .perfect-jumbotron img {
-  max-width: 100%;
+  max-height: 100%;
   border: 5px solid #ececec;
   border-radius: 2em;
   margin-bottom: 2em;
@@ -228,13 +228,14 @@ h2 {
   position: relative;
 }
 #grid {
-  height: 745px;
+  height: 575px;
+  width: 850px;
   padding-bottom: 3em;
   border-radius: 2em;
 }
 #iphone {
   position: absolute;
-  top: 17em;
+  top: 14.5em;
   right: 10em;
   max-width: 60%;
   max-height: 60%;
@@ -385,7 +386,7 @@ h6 {
 }
 #footer-table {
   text-align: left;
-  font-size: 0.9em;
+  font-size: 0.8em;
 }
 #footer-table a:link {
   border-bottom: 2px solid #ececec;
@@ -395,19 +396,24 @@ td {
   height: 3em;
 }
 .bottom {
-  height: 350px;
+  height: 300px;
   float: left;
 }
 .left-footer {
-  width: 60%;
+  width: 80%;
+  padding-left: 20%;
+  background-image: url(../img/logo.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 10%;
 }
 .right-footer {
-  width: 40%;
-  padding: 1em;
+  width: 20%;
   text-align: left;
+  position: relative;
 }
 .right-footer a:link {
-  font-size: .9em;
+  font-size: .8em;
 }
 .blue-underlink:link, .blue-underlink:visited {
   color: #2c7ff9;
@@ -422,11 +428,11 @@ td {
 }
 .bottomnav {
   position: absolute;
-  bottom: 23em;
-  right: 21em;
-  text-align: center;
+  bottom: 5em;
   color: #666666;
-  font-size: 0.8em;
+  font-size: 0.7em;
+  border: 1px solid blue;
+  padding: 0;
   }
 
 .bottomnav ul {
